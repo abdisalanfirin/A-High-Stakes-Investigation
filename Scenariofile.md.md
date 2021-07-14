@@ -1,4 +1,4 @@
-A High Stakes Investigation
+# A High Stakes Investigation
 
 Scenario
 You have just been hired by Lucky Duck Casino as a security analyst.
@@ -32,10 +32,9 @@ For example: Notes_Player_Analysis
 
 - ![directories i created for my investigation](./Images/image_1.png)
 
-
-
 ### Gathering Evidence
-Your next task is to move evidence from the specific days that Lucky Duck experienced heavy losses at the roulette tables 
+
+Your next task is to move evidence from the specific days that Lucky Duck experienced heavy losses at the roulette tables
 Lucky_Duck_Investigations: Contains the investigation directories and notes files I created.
 Roulette_Player_WinLoss_0310: Contains the data for player wins and losses.
 The Dealer_Schedules_0310 and Roulette_Player_WinLoss_0310 directories contain the dealer schedules and win/loss player data from the roulette tables during the week of March 10.
@@ -56,7 +55,7 @@ Preview the file Roulette_Losses and analyze the data.
 
 - ![Use grep to isolate all of the losses that occurred on March 10, 12, and 15](./Images/image_3.png)
 
-- ![Place those results in a file called Roulette_Losses](./Image/image_x.png)
+- ![Place those results in a file called Roulette_Losses](./Images/image_x.png)
 
 Record in the Notes_Player_Analysis file:
 
@@ -66,10 +65,9 @@ The total count of times this player was playing.
 
 - ![one player named mylie](./Images/image_4.png)
 
+### Complete the dealer analysis
 
-# Complete the dealer analysis.
-
-# Navigate to the Dealer_Analysis directory.
+### Navigate to the Dealer_Analysis directory
 
 This file contains the dealer schedules for the various Lucky Duck casino games: Blackjack, Roulette, and Texas Hold 'Em.
 Using your findings from the player analysis, create a separate script to look at each day and time that you determined losses occurred. Use awk, pipes, and grep to isolate out the following four fields:
@@ -79,12 +77,12 @@ a.m./p.m.
 First name of roulette dealer
 Last name of roulette dealer
 
-- ![script called roulette_dealer_finder_by_time.sh](./Image/image_5.png)
+- ![script called roulette_dealer_finder_by_time.sh](./Images/image_5.png)
 
 For example, if a loss occurred on March 10 at 2 p.m., you would write one script to find the roulette dealer who was working at that specific day and time.
 Run all of the scripts and append those results to a file called Dealers_working_during_losses.
 
-- ![schript to append the results](./Image/image_6.png)
+- ![schript to append the results](./Images/image_6.png)
 
 Preview your file Dealers_working_during_losses and analyze the data.
 The primary dealer working at the times where losses occurred.
@@ -93,12 +91,12 @@ The primary dealer working at the times where losses occurred.
 How many times the dealer worked when major losses occurred.
 Complete the player/employee correlation.
 
-- ![The total count of times this player was playing using wc command](./Image/image_7.png)
+- ![The total count of times this player was playing using wc command](./Images/image_7.png)
 
 In the notes file of the Player_Dealer_Correlation directory, add a summary of your findings noting the player and dealer you believe are colluding to scam Lucky Duck.
 Make sure to document your specific reasons for this finding.
 
-- ![Display Player_Dealer_Correlation](./Image/image_8)
+- ![Display Player_Dealer_Correlation](./Images/image_8)
 
 ### Step 4: Scripting Your Tasks
 
@@ -108,7 +106,7 @@ Complete the following tasks:
 
 Remain in the Dealer_Analysis directory.  Develop a shell script called roulette_dealer_finder_by_time.sh 
 
-- ![shell script called roulette_dealer_finder_by_time.sh](./Image/image_9.png)
+- ![shell script called roulette_dealer_finder_by_time.sh](./Images/image_9.png)
 
 that can analyze the employee schedule to easily find the roulette dealer at a specific time.
 Hint: You will be using a script similar to the one you created for the dealer analysis step, but you will not output the results into a file.
@@ -119,17 +117,18 @@ One for the time
 Note: The argument should be able to accept a.m. or p.m.
 Test your script on the schedules to confirm it outputs the correct dealer at the time specified.
 
-- ![Test the script if its working](./Image/image_10.png)
+- ![Test the script if its working](./Images/image_10.png)
 
 ### Bonus
+
 In case there is future fraud on the other Lucky Duck games, create a shell script called roulette_dealer_finder_by_time_and_game.sh that has the three following arguments:
 Specific time
 Specific date
 Casino game being played
 
-- ![scrip to find spefic time and date and game being played](./Image/image_11.png)
+- ![scrip to find spefic time and date and game being played](./Images/image_11.png)
 
-- ![testing the script is working](./Image/image_12.png)
+- ![testing the script is working](./Images/image_12.png)
 
 ### Submission Guidelines
 
@@ -142,6 +141,6 @@ Dealers_working_during_losses
 Shell script(s)
 Compress the Player_Dealer_Correlation folder to a zip file and submit it.
 
-- ![compress the Player_Dealer_Correlation](./Image/image_13.png)
+- ![compress the Player_Dealer_Correlation](./Images/image_13.png)
 
-- ! [zip command](./Image/image_14.png)
+- ![zip command](./Images/image_14.png)
