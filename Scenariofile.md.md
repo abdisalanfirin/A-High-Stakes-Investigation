@@ -96,7 +96,7 @@ Complete the player/employee correlation.
 In the notes file of the Player_Dealer_Correlation directory, add a summary of your findings noting the player and dealer you believe are colluding to scam Lucky Duck.
 Make sure to document your specific reasons for this finding.
 
-- ![Display Player_Dealer_Correlation](./Images/image_8)
+- ![Display Player_Dealer_Correlation](./Images/image_8.png)
 
 ### Step 4: Scripting Your Tasks
 
